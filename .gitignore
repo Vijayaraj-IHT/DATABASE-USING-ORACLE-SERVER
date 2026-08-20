@@ -1,0 +1,11 @@
+# Build artifacts
+*.class
+*.jar
+!ojdbc*.jar          # vendor the Oracle thin driver manually if needed
+
+# Packaging output
+*.zip
+
+# Local environment overrides (never commit credentials)
+.env
+*.local
